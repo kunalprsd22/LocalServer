@@ -13,6 +13,14 @@
 		84116A5027EF362200E19063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84116A4E27EF362200E19063 /* Main.storyboard */; };
 		84116A5227EF362500E19063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84116A5127EF362500E19063 /* Assets.xcassets */; };
 		84116A5527EF362500E19063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84116A5327EF362500E19063 /* LaunchScreen.storyboard */; };
+		84116A5D27EF374100E19063 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84116A5C27EF374100E19063 /* README.md */; };
+		84116A6927EF398100E19063 /* database.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6027EF398100E19063 /* database.php */; };
+		84116A6A27EF398100E19063 /* employees.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6227EF398100E19063 /* employees.php */; };
+		84116A6B27EF398100E19063 /* update.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6427EF398100E19063 /* update.php */; };
+		84116A6C27EF398100E19063 /* create.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6527EF398100E19063 /* create.php */; };
+		84116A6D27EF398100E19063 /* read.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6627EF398100E19063 /* read.php */; };
+		84116A6E27EF398100E19063 /* delete.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6727EF398100E19063 /* delete.php */; };
+		84116A6F27EF398100E19063 /* single_read.php in Resources */ = {isa = PBXBuildFile; fileRef = 84116A6827EF398100E19063 /* single_read.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		84116A5127EF362500E19063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84116A5427EF362500E19063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84116A5627EF362500E19063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84116A5C27EF374100E19063 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84116A6027EF398100E19063 /* database.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = database.php; sourceTree = "<group>"; };
+		84116A6227EF398100E19063 /* employees.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = employees.php; sourceTree = "<group>"; };
+		84116A6427EF398100E19063 /* update.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = update.php; sourceTree = "<group>"; };
+		84116A6527EF398100E19063 /* create.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = create.php; sourceTree = "<group>"; };
+		84116A6627EF398100E19063 /* read.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = read.php; sourceTree = "<group>"; };
+		84116A6727EF398100E19063 /* delete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = delete.php; sourceTree = "<group>"; };
+		84116A6827EF398100E19063 /* single_read.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = single_read.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 		84116A3C27EF362200E19063 = {
 			isa = PBXGroup;
 			children = (
+				84116A5C27EF374100E19063 /* README.md */,
 				84116A4727EF362200E19063 /* LocalServerDemo */,
 				84116A4627EF362200E19063 /* Products */,
 			);
@@ -56,6 +73,7 @@
 		84116A4727EF362200E19063 /* LocalServerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84116A5E27EF398100E19063 /* DBCode */,
 				84116A4827EF362200E19063 /* AppDelegate.swift */,
 				84116A4A27EF362200E19063 /* SceneDelegate.swift */,
 				84116A4C27EF362200E19063 /* ViewController.swift */,
@@ -65,6 +83,44 @@
 				84116A5627EF362500E19063 /* Info.plist */,
 			);
 			path = LocalServerDemo;
+			sourceTree = "<group>";
+		};
+		84116A5E27EF398100E19063 /* DBCode */ = {
+			isa = PBXGroup;
+			children = (
+				84116A5F27EF398100E19063 /* config */,
+				84116A6127EF398100E19063 /* class */,
+				84116A6327EF398100E19063 /* api */,
+			);
+			path = DBCode;
+			sourceTree = "<group>";
+		};
+		84116A5F27EF398100E19063 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				84116A6027EF398100E19063 /* database.php */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		84116A6127EF398100E19063 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				84116A6227EF398100E19063 /* employees.php */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		84116A6327EF398100E19063 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				84116A6427EF398100E19063 /* update.php */,
+				84116A6527EF398100E19063 /* create.php */,
+				84116A6627EF398100E19063 /* read.php */,
+				84116A6727EF398100E19063 /* delete.php */,
+				84116A6827EF398100E19063 /* single_read.php */,
+			);
+			path = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +181,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84116A6F27EF398100E19063 /* single_read.php in Resources */,
+				84116A6B27EF398100E19063 /* update.php in Resources */,
 				84116A5527EF362500E19063 /* LaunchScreen.storyboard in Resources */,
+				84116A6927EF398100E19063 /* database.php in Resources */,
+				84116A6E27EF398100E19063 /* delete.php in Resources */,
+				84116A6A27EF398100E19063 /* employees.php in Resources */,
+				84116A6C27EF398100E19063 /* create.php in Resources */,
+				84116A6D27EF398100E19063 /* read.php in Resources */,
 				84116A5227EF362500E19063 /* Assets.xcassets in Resources */,
+				84116A5D27EF374100E19063 /* README.md in Resources */,
 				84116A5027EF362200E19063 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
